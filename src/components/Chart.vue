@@ -1,14 +1,14 @@
 <template>
 
-    <h1>SampleOne {{msg}}</h1>
+    <h1>Chart</h1>
 </template>
 
 <script>
     export default {
-        name: "SampleOne",
+        name: "Chart",
         props: {
-            msg: String
-        }
+            data: Object
+        },
     }
 </script>
 
